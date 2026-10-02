@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR > UTKARSH | Web Developer & BCA Student</title>
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Caveat:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Remixicon for Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-text-container">
+      <span class="preloader-word active">HELLO</span>
+       <span class="preloader-word">नमस्ते</span>
+       <span class="preloader-word">SALUT</span>
+       <span class="preloader-word">Sat Sri Akaal</span>
+       <span class="preloader-word">नमस्कार</span>
+       <span class="preloader-word">Vanakkam</span>
+        <span class="preloader-word">CIAO</span>
+         <span class="preloader-word">HOLA</span>
+          <span class="preloader-word">CIAO</span>
+    </div>
+    <div class="preloader-curtain"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      <span class="status-text">Available for New Project</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#services">Service</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn-talk">
+      <span>Let's Talk</span>
+      <i class="ri-arrow-right-up-line"></i>
+    </a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-title-wrapper">
+      <h1 class="hero-title">
+        <span class="title-mr">MR<span class="title-bracket">&gt;</span></span>
+        <span class="title-name">UTKARSH</span>
+      </h1>
+      <div class="title-reveal" id="titleReveal" aria-hidden="true">
+        <div class="hero-title"><span class="title-mr">MR<span class="title-bracket">&gt;</span></span><span class="title-name">UTKARSH</span></div>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <!-- Left Info Box -->
+      <div class="hero-left">
+        <h2 class="role-title">Web Developer</h2>
+        <p class="role-description">
+          Building responsive, modern web experiences with clean code, creative UI, and practical problem-solving.
+        </p>
+        <a href="#contact" class="btn-collaborate">
+          <span>Let's collaborate</span>
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+
+      <!-- Center Character Container (Replaced with video asset) -->
+      <div class="hero-character-container">
+        <div class="character-mask profile-photo-frame">
+          <video class="character-video" autoplay muted loop playsinline preload="auto" poster="assets/video/hero-poster.png?v=5" aria-label="Utkarsh Agarwal - Web Developer">
+            <source src="assets/video/hero.mp4?v=5" type="video/mp4">
+          </video>
+          <div class="profile-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <!-- Right Social Links -->
+      <div class="hero-right">
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/agarwalutkarsh1948-cloud" target="_blank" rel="noopener">
+              <i class="ri-github-line"></i>
+              <span>GitHub</span>
+              <i class="ri-arrow-up-right-line icon-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/utkarshmittal__/" target="_blank" rel="noopener">
+              <i class="ri-instagram-line"></i>
+              <span>Instagram</span>
+              <i class="ri-arrow-up-right-line icon-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/utkarsh-agarwal-a436a2383" target="_blank" rel="noopener">
+              <i class="ri-linkedin-fill"></i>
+              <span>LinkedIn</span>
+              <i class="ri-arrow-up-right-line icon-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a href="Utkarsh_Agarwal_Resume.docx" download class="resume-btn">
+              <i class="ri-file-text-line"></i>
+              <span>Resume</span>
+              <i class="ri-download-line icon-arrow"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Work / Carousel Section -->
+  <section class="work-section" id="work">
+    <div class="section-header">
+      <span class="section-tag">PORTFOLIO</span>
+      <h2 class="section-title">/ SELECTED WORK</h2>
+    </div>
+
+    <div class="carousel-container">
+      <div class="carousel-track" id="carouselTrack">
+        <!-- Project Card 1 -->
+        <div class="project-card active" data-index="0">
+          <div class="card-inner">
+            <div class="card-badge">
+              <span class="badge-dot"></span>
+              <span>HEALTH TECH</span>
+            </div>
+            <div class="card-content">
+              <h3>ZEPMEDS</h3>
+              <p>India's AI-driven medicine delivery app</p>
+              <div class="card-tags">
+                <span>Quick Commerce</span>
+                <span>Medicine</span>
+                <span>Logistics</span>
+              </div>
+            </div>
+            <a href="#" class="card-action-btn">
+              <span>Live Demo</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card" data-index="1">
+          <div class="card-inner">
+            <div class="card-badge red">
+              <span class="badge-dot"></span>
+              <span>SECURITY TECH</span>
+            </div>
+            <div class="card-content">
+              <h3>ZEPSECURE</h3>
+              <p>AI powered surveillance & facial recognition system</p>
+              <div class="card-tags">
+                <span>Computer Vision</span>
+                <span>RESTful APIs</span>
+                <span>Hardware</span>
+              </div>
+            </div>
+            <a href="#" class="card-action-btn">
+              <span>Live Demo</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card" data-index="2">
+          <div class="card-inner">
+            <div class="card-badge pink">
+              <span class="badge-dot"></span>
+              <span>BIOMETRICS</span>
+            </div>
+            <div class="card-content">
+              <h3>KAVACH</h3>
+              <p>Automated biometrics and access logging platform</p>
+              <div class="card-tags">
+                <span>Facial AI</span>
+                <span>Thermal Sensing</span>
+                <span>Real-time</span>
+              </div>
+            </div>
+            <a href="#" class="card-action-btn">
+              <span>Live Demo</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card" data-index="3">
+          <div class="card-inner">
+            <div class="card-badge blue">
+              <span class="badge-dot"></span>
+              <span>HEALTHCARE AI</span>
+            </div>
+            <div class="card-content">
+              <h3>ECHODOC</h3>
+              <p>AI doctor assistant & patient scheduling platform</p>
+              <div class="card-tags">
+                <span>Clinical NLP</span>
+                <span>AI Triage</span>
+                <span>Direct Booking</span>
+              </div>
+            </div>
+            <a href="#" class="card-action-btn">
+              <span>Live Demo</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project Card 5 -->
+        <div class="project-card" data-index="4">
+          <div class="card-inner">
+            <div class="card-badge amber">
+              <span class="badge-dot"></span>
+              <span>SMART CITY</span>
+            </div>
+            <div class="card-content">
+              <h3>GMCBL</h3>
+              <p>Smart transit control & automated fare collection</p>
+              <div class="card-tags">
+                <span>IoT Transit</span>
+                <span>Automatic Fare</span>
+                <span>Bus Fleet System</span>
+              </div>
+            </div>
+            <a href="#" class="card-action-btn lock">
+              <span>Confidential</span>
+              <i class="ri-lock-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Accordion Section -->
+  <section class="services-section" id="services">
+    <div class="section-header">
+      <h2 class="section-title">/ SERVICE</h2>
+    </div>
+
+    <div class="accordion-container">
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-num">01</span>
+          <h3 class="accordion-title">UI/UX DESIGN</h3>
+          <i class="ri-arrow-right-up-line accordion-icon"></i>
+        </div>
+        <div class="accordion-body">
+          <p>Designing clear, scalable, and intuitive interfaces for complex dashboards, mobile applications, and web platforms.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-num">02</span>
+          <h3 class="accordion-title">WEB DESIGN &amp; DEV</h3>
+          <i class="ri-arrow-right-up-line accordion-icon"></i>
+        </div>
+        <div class="accordion-body">
+          <p>Building high-performance, responsive websites with ultra-smooth animations, modern layouts, and optimized SEO.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item active">
+        <div class="accordion-header">
+          <span class="accordion-num">03</span>
+          <h3 class="accordion-title">AI AUTOMATIONS</h3>
+          <i class="ri-arrow-right-up-line accordion-icon"></i>
+        </div>
+        <div class="accordion-body">
+          <p>Building custom AI workflows, multi-agent systems, LLM integrations, fine-tuning pipelines, and intelligent process automation.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-num">04</span>
+          <h3 class="accordion-title">MOTIONS &amp; ANIMATIONS</h3>
+          <i class="ri-arrow-right-up-line accordion-icon"></i>
+        </div>
+        <div class="accordion-body">
+          <p>Creating fluid micro-interactions, expressive motion graphics, and engaging UI transitions for elevated user journeys.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience-section" id="experience">
+    <div class="experience-header">
+      <div class="exp-badge"><i class="ri-suitcase-line"></i> PROFESSIONAL BACKGROUND</div>
+      <h2 class="exp-title"><span class="slash">/</span> EXPERIENCE</h2>
+      <p class="exp-subtitle">Hands-on expertise across Generative AI architectures, video motion editing, 3D spatial design, and computer vision systems.</p>
+    </div>
+
+    <div class="experience-list">
+      <div class="exp-item" data-preview="assets/images/project1.jpg">
+        <div class="exp-main">
+          <h3>Gen AI &amp; Agentic AI Intern</h3>
+          <span class="exp-role">INFONION ROLES</span>
+          <p>Architected autonomous LLM agents, multi-modal RAG orchestration pipelines, and custom prompt workflows.</p>
+        </div>
+        <div class="exp-date">June - August</div>
+      </div>
+
+      <div class="exp-item" data-preview="assets/images/project2.jpg">
+        <div class="exp-main">
+          <h3>Video Editor &amp; Motion Designer</h3>
+          <span class="exp-role">FREELANCE</span>
+          <p>Freelance video editing, motion graphics typography, color grading, and dynamic video reels for brands &amp; digital creators.</p>
+        </div>
+        <div class="exp-date">2021 - Present</div>
+      </div>
+
+      <div class="exp-item" data-preview="assets/images/project3.jpg">
+        <div class="exp-main">
+          <h3>2D &amp; 3D Floorplan Designer</h3>
+          <span class="exp-role">FREELANCE</span>
+          <p>Freelance architectural 2D blueprint drafting, spatial interior design, photorealistic 3D renders, and isometric layout schematics.</p>
+        </div>
+        <div class="exp-date">2021 - 2023</div>
+      </div>
+
+      <div class="exp-item" data-preview="assets/images/project4.jpg">
+        <div class="exp-main">
+          <h3>Full-Stack AI &amp; Vision Engineer</h3>
+          <span class="exp-role">CLIENT WORK</span>
+          <p>Developed edge computer vision pipelines, biometric security software, and responsive web platforms for external clients.</p>
+        </div>
+        <div class="exp-date">2023 - 2024</div>
+      </div>
+    </div>
+
+    <!-- Hover Preview Floating Card -->
+    <div class="experience-preview-card" id="expPreviewCard">
+      <img src="assets/images/project1.jpg" id="previewImg" alt="Work Preview">
+    </div>
+  </section>
+
+  <!-- Contact & Footer Section -->
+  <section class="contact-footer-section" id="contact">
+    <div class="contact-panel">
+      <div class="contact-left">
+        <span class="badge-outline"><i class="ri-checkbox-circle-line"></i> Contact &amp; Reach Out</span>
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to collaborate with Utkarsh on AI systems, full-stack software engineering, or technical consulting? Reach out directly anytime.</p>
+        <div class="contact-buttons">
+          <a href="https://wa.me/917818026130?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%20I%27d%20love%20to%20discuss%20a%20potential%20opportunity%20or%20collaboration." target="_blank" rel="noopener" class="btn-light">Chat on WhatsApp <i class="ri-arrow-right-line"></i></a>
+          <a href="mailto:utkarsh.bc2025310@invertisuniversity.ac.in" class="btn-ghost">Send Email</a>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="c-card">
+          <div class="c-top"><span class="c-icon"><i class="ri-user-3-line"></i></span></div>
+          <span class="c-label">OWNER / DEVELOPER</span>
+          <h4>Utkarsh</h4>
+          <p>AI Systems &amp; Full-Stack Lead</p>
+        </div>
+        <a class="c-card" href="tel:+919762863439">
+          <div class="c-top"><span class="c-icon green"><i class="ri-phone-line"></i></span><span class="c-link green">LINK <i class="ri-external-link-line"></i></span></div>
+          <span class="c-label">DIRECT LINE</span>
+          <h4>+91 97628 63439</h4>
+          <p>Call anytime</p>
+        </a>
+        <a class="c-card" href="mailto:utkarsh.bc2025310@invertisuniversity.ac.in">
+          <div class="c-top"><span class="c-icon blue"><i class="ri-mail-line"></i></span><span class="c-link blue">LINK <i class="ri-external-link-line"></i></span></div>
+          <span class="c-label">EMAIL</span>
+          <h4 class="c-mail">utkarsh.bc2025310@invertisuniversity.ac.in</h4>
+          <p>Send a direct note</p>
+        </a>
+        <div class="c-card">
+          <div class="c-top"><span class="c-icon red"><i class="ri-map-pin-line"></i></span></div>
+          <span class="c-label">LOCATION</span>
+          <h4>Bareilly, Uttar Pradesh</h4>
+          <p>India</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer Card -->
+    <div class="footer-bottom-card">
+      <div class="footer-left-widget">
+        <div class="widget-header">
+          <span class="widget-avatar">U</span>
+          <span class="widget-title">Utkarsh</span>
+        </div>
+        <div class="widget-body">
+          <p class="widget-hero-text">AI systems &amp; full-stack software, built by Utkarsh.</p>
+          <div class="widget-bottom">
+            <span class="widget-pill">Stay in touch!</span>
+            <span class="widget-socials">
+              <a href="https://www.instagram.com/utkarshmittal__/" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+              <a href="https://wa.me/917818026130?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%20I%27d%20love%20to%20discuss%20a%20potential%20opportunity%20or%20collaboration." target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+              <a href="https://www.linkedin.com/in/utkarsh-agarwal-a436a2383" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+              <a href="https://github.com/agarwalutkarsh1948-cloud" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-line"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-panel">
+        <div class="footer-links-group">
+          <div class="link-col">
+            <h5>Navigation</h5>
+            <a href="#work">Work</a>
+            <a href="#services">Services</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="link-col">
+            <h5>Connect</h5>
+            <a href="https://wa.me/917818026130?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%20I%27d%20love%20to%20discuss%20a%20potential%20opportunity%20or%20collaboration." target="_blank" rel="noopener">WhatsApp</a>
+            <a href="mailto:utkarsh.bc2025310@invertisuniversity.ac.in">Email Direct</a>
+            <a href="tel:+919762863439">Phone Call</a>
+            <a href="#">Location</a>
+          </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 Utkarsh. All rights reserved.</p>
+        <div class="footer-tagline"><span>AI moves fast.</span><strong>Stay ahead with Utkarsh.</strong></div>
+        <div class="footer-right-callout">
+          <div class="callout-badge">U</div>
+          <p class="callout-tagline"><i class="ri-arrow-right-up-line"></i> Feeling lucky?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Large Background Brand Text -->
+    <div class="footer-giant-text">Utkarsh</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
